@@ -1,4 +1,7 @@
-package jdbc.rating;
+package jdbc.rating.application;
+
+import jdbc.rating.config.JDBCConnection;
+import jdbc.rating.model.Assignments;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -346,7 +349,7 @@ public class App
 
 	private static void addAssignmentCategory(Connection conn, String name, String subject, String assigncategory, String date, int marks) {
 
-		Assignments a = new Assignments(name, subject, assigncategory, date, marks);  
+		Assignments a = new Assignments(name, subject, assigncategory, date, marks);
 		try {
 			validateAssignmentCategory(conn, a);
 			System.out.println("Assignment category inserted successfully");

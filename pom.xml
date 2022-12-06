@@ -5,11 +5,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>vi20231523.jdbc.rating</groupId>
-	<artifactId>VI20231523_JDBC_Rating</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>java.jdbc.rating</groupId>
+	<artifactId>JDBC_Rating</artifactId>
+	<version>0.0.1</version>
 
-	<name>VI20231523_JDBC_Rating</name>
+	<name>JAVA_JDBC_Rating</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
